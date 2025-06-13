@@ -24,7 +24,7 @@ h3 {
     z-index: 1;
     text-align: center;
     top: 24%;
-    left: 10%;
+    left: 21%;
     padding: auto auto;
     font-size: 14vw;
 }
@@ -35,10 +35,10 @@ p {
     color: #40344b;
     font-style: oblique;
     text-align: center;
-    font-size: 5vw;
+    font-size: 6vw;
 }
 span {
-    font-size: 1vw;
+    font-size: 2vw;
 }
 section img {
     position: absolute;
