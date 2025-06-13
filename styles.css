@@ -18,7 +18,7 @@ nav {
 nav li {
     width: 25%;
     display: inline-block;
-    font-size: 1.3vw;
+    font-size: 1.6vw;
 }
 nav li a {
     text-decoration: none;
@@ -58,7 +58,6 @@ span {
 }
 section img {
     position: absolute;
-    z-index: 1;
     width: 2000px;
     max-width: 100%;
     opacity: 0.2;
