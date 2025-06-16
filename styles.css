@@ -1,6 +1,8 @@
-body, h1, h2, h3 {
+/* Main & Lyric Page */
+body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
+    font-family: 'Courier New', Courier, monospace;
 }
 body {
     margin: 0;
@@ -8,29 +10,40 @@ body {
     background-color:#9eb8b5;
     max-width: 100%;
 }
-nav {
+.main_nav {
     background: cadetblue;
     width: 2000px;
     max-width: 100%;
     position: fixed;
     z-index: 1;
+    top: 0;
+    left: 0;
+    height: 5.5%;
 }
-nav ul {
+.main_nav ul {
     margin: 0.5%;
 }
-nav li {
-    width: 25%;
+.main_nav li {
     display: inline-block;
+    width: 25%;
     font-size: 1.6vw;
 }
-nav li a {
+#song_ul {
+    margin-top: 5.5%;
+}
+#song_ul li {
+    /* display: inline-block; */
+    width: 50%;
+    font-size: 1.6vw;
+}
+li a {
     text-decoration: none;
     color: #40344b;
 }
-header {
+#main_header {
     position: relative;
 }
-header img {
+#lace1 {
     width: 2000px;
     max-width: 100%;
     opacity: 0.2;
@@ -43,14 +56,14 @@ h3 {
     z-index: 1;
     text-align: center;
     top: 24%;
-    left: 21%;
+    left: 13%;
     padding: auto auto;
     font-size: 14vw;
 }
-section {
+#main_section {
     position: relative;
 }
-p {
+#main_section p {
     color: #40344b;
     text-align: center;
     font-size: 6vw;
@@ -59,9 +72,8 @@ span {
     font-size: 2vw;
     font-style: oblique;
 }
-section img {
-    position: absolute;
-    width: 2000px;
-    max-width: 100%;
-    opacity: 0.2;
+#rufus_lyrics img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
