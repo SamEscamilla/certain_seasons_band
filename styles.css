@@ -41,14 +41,14 @@ li a {
     color: #40344b;
 }
 #main_header {
-    /* position: relative; */
+    position: relative;
 }
 #lace1 {
     width: 2000px;
     max-width: 100%;
     opacity: 0.2;
     position: relative;
-    top: 25px;
+    top: 40px;
 }
 h3 {
     position: absolute;
@@ -57,7 +57,7 @@ h3 {
     font-weight: lighter;
     z-index: 1;
     text-align: center;
-    top: 15%;
+    top: 160px;
     left: 12%;
     padding: auto auto;
     font-size: 14vw;
