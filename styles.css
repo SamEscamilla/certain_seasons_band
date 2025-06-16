@@ -74,7 +74,7 @@ span {
     font-size: 2vw;
     font-style: oblique;
 }
-#rufus_lyrics img {
+.lyrics img {
     display: block;
     width: 100%;
     height: auto;
