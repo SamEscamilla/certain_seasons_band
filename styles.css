@@ -60,7 +60,7 @@ li a {
 #lace1 {
     width: 100%;
     height: auto;
-    opacity: 0.2;
+    opacity: 0.3;
     display: block;
 }
 /* Overlay */
@@ -80,7 +80,7 @@ li a {
     padding: 2rem;
 }
 #main_section p {
-    color: #40344b;
+    color: antiquewhite;
     font-size: 6vw;
 }
 span {
