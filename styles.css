@@ -1,73 +1,85 @@
 /* Main & Lyric Page */
-body, h1, h2, h3, p {
+body, h1, h2, h3, p, ul, li, a {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
 }
 body {
-    margin: 0;
-    padding: 0;
     background-color:#9eb8b5;
     max-width: 100%;
+    padding-top: 40px;
+    overflow-x: hidden;
 }
+/* Fixed Navigation */
 .main_nav {
     background: cadetblue;
-    width: 2000px;
-    max-width: 100%;
+    width: 100%;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    height: 30px;
+    height: 40px;
+    display: flex;
+    align-items: center;
     padding: 0.5rem 1rem;
 }
 .main_nav ul {
-    margin: 0.5%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 .main_nav li {
     display: inline-block;
-    width: 25%;
     font-size: 22px;
-}
-#song_ul {
-    padding-top: 40px;
-}
-#song_ul li {
-    width: 50%;
-    font-size: 1.6vw;
 }
 li a {
     text-decoration: none;
     color: #40344b;
 }
+/* Song list */
+#song_ul {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+}
+#song_ul li {
+    font-size: 1.6vw;
+    text-align: center;
+}
+/* Header with overlay */
 #main_header {
     position: relative;
+    text-align: center;
 }
+/* Lace image */
 #lace1 {
-    width: 2000px;
-    max-width: 100%;
+    width: 100%;
+    height: auto;
     opacity: 0.2;
-    position: relative;
-    top: 40px;
+    display: block;
 }
-h3 {
+/* Overlay */
+#name {
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: cadetblue;
     font-style: oblique;
     font-weight: lighter;
-    z-index: 1;
-    text-align: center;
-    top: 160px;
-    left: 12%;
-    padding: auto auto;
     font-size: 14vw;
+    z-index: 1;
 }
 #main_section {
-    position: relative;
+    text-align: center;
+    padding: 2rem;
 }
 #main_section p {
     color: #40344b;
-    text-align: center;
     font-size: 6vw;
 }
 span {
