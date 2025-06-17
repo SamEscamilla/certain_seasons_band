@@ -1,22 +1,22 @@
 /* Main & Lyric Page */
-body, h1, h2, h3, p, ul, li, a {
+body, h1, h2, h3, h4, h5, p, ul, li, a {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
 }
 body {
-    background-color:#9eb8b5;
+    background-color: dimgrey;
     max-width: 100%;
     padding-top: 40px;
     overflow-x: hidden;
 }
 /* Fixed Navigation */
 .main_nav {
-    background: cadetblue;
+    background: darkslategrey;
     width: 100%;
     position: fixed;
-    z-index: 1;
+    z-index: 3;
     top: 0;
     left: 0;
     height: 40px;
@@ -60,28 +60,44 @@ li a {
 #lace1 {
     width: 100%;
     height: auto;
-    opacity: 0.3;
+    opacity: 0.2;
     display: block;
+    z-index: 1;
 }
 /* Overlay */
-#name {
+.title_wrapper {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: cadetblue;
+    z-index: 2;
+    text-align: center;
+}
+#name {
+    font-size: 15vw;
     font-style: oblique;
     font-weight: lighter;
-    font-size: 14vw;
-    z-index: 1;
+    color: darkslategrey;
+}
+#est {
+    font-size: 5vw;
+    font-style: italic;
+    color: darkslategrey;
 }
 #main_section {
     text-align: center;
     padding: 2rem;
+    color: antiquewhite;
+}
+#main_section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 2rem auto;
+    font-weight: lighter;
 }
 #main_section p {
-    color: antiquewhite;
-    font-size: 6vw;
+    font-size: 4vw;
 }
 span {
     font-size: 2vw;
@@ -108,7 +124,7 @@ span {
     display: inline-block;
 }
 .nav_button {
-    background-color: cadetblue;
+    background-color: darkslategrey;
     color: antiquewhite;
     text-decoration: none;
     padding: 0.75rem 1.5rem;
@@ -117,5 +133,18 @@ span {
     transition: background-color 0.3s ease;
 }
 .nav_button:hover {
-    background-color: #376a6c;
+    background-color: #2e3a3a;
+}
+footer {
+    background: darkslategrey;
+    color: antiquewhite;
+    width: 100%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+}
+footer h4 {
+    font-weight: lighter;
 }
