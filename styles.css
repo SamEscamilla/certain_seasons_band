@@ -28,14 +28,15 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
+    gap: 4rem;
 }
 .main_nav li {
-    display: inline-block;
-    font-size: 22px;
+    font-size: 2rem;
 }
 li a {
     text-decoration: none;
-    color: #40344b;
+    color: antiquewhite;
 }
 /* Song list */
 #song_ul {
@@ -90,4 +91,31 @@ span {
     display: block;
     width: 100%;
     height: auto;
+}
+.lyrics_nav {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+}
+.lyrics_nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    padding: 0;
+    margin: 0;
+}
+.lyrics_nav li {
+    display: inline-block;
+}
+.nav_button {
+    background-color: cadetblue;
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+.nav_button:hover {
+    background-color: #376a6c;
 }
